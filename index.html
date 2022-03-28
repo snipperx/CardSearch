@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cards panels with thumbnails - Bootdey.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <hr>
+  <div class="container bootstrap snippets bootdey">
+    <div class="row height d-flex justify-content-center align-items-center">
+      <div class="col-md-8">
+        <div class="search" data-search><input type="text" class="form-control"
+            placeholder="Enter Key word to Search .."></div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div id="populate-task" data-user-card-container>
+      </div>
+
+      <template User-cards-Template>
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <div class="caption">
+              <h4 class="title" style="color:#6495ED" title-header><span
+                  class="glyphicon glyphicon-th-large"></span>User</h4>
+              <p class="email" body-header>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta,
+                eligendi doloribus sunt minus
+                amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i
+                  class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button"><span
+                  class="glyphicon glyphicon-thumbs-up"></span>Button</a> <a href="#" class="btn btn-default btn-xs"
+                role="button">Button</a>
+            </div>
+          </div>
+        </div>
+      </template>
+
+    </div>
+    <!--/row-->
+  </div>
+  <!--/container -->
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </script>
+</body>
+
+</html>
